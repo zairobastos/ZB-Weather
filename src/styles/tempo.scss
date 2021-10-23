@@ -1,0 +1,50 @@
+main .tempo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+
+    .div1{
+        display: flex;
+        .status{
+            display: flex;
+    
+            h2{
+                font-size: 3rem;
+                color: #e8eaed;
+                font-weight: 400;
+                line-height: 40px;
+            }
+            sup{
+                font-size: 1rem;
+                span{
+                    color: #9aa0a6;
+                }
+            }
+        }
+    
+        .statusTemp{
+            font-size: 3.75rem;
+            margin-right: 20px;
+        }
+    
+        .clima{
+            font-size: 0.75rem;
+            color: #9aa0a6;
+            line-height: 1rem;
+            margin-left: 10px;
+        }
+    }
+
+    .cidade{
+        text-align: right;  
+        h3{
+            font-weight: 400;
+        }      
+        h4{
+            color: #9aa0a6;
+            font-weight: 400;
+        }
+    }
+}
