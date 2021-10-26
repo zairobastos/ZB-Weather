@@ -1,13 +1,15 @@
 import React from "react";
 import Seacher from './components/Seacher';
 import Tempo from "./components/Tempo";
-import './styles/global.scss'
+import Week from "./components/Week";
+import './styles/global.scss';
 
 function App() {
   return (
     <main>
       <Seacher/>
       <Tempo/>
+      <Week/>
     </main>
   );
 }

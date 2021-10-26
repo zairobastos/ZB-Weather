@@ -1,0 +1,45 @@
+.day{
+    color:#fff;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 4.688rem;
+    height: 5.938rem;
+    margin: 20px 10px 0px 0px;
+    background-color: #303134;
+    border-radius: 10px;
+
+    h4{
+        color: #BDC1C6;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+
+    .maxmin{
+        display: flex;
+        flex-flow: row wrap;
+
+        p:first-child{
+            color: #e8eaed;
+            margin-right: 5px;
+        }
+        p:last-child{
+            color: #9aa0a6;
+        }
+        p{
+            font-weight: 400;
+            font-size: 0.813rem;
+            margin-bottom: 5px;
+        }
+    }
+
+    .statusTemp{
+        font-size: 2.5rem;
+    }
+}
+
+.disable{
+    background-color: #202124;
+}

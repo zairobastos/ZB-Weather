@@ -13,7 +13,7 @@ function Tempo() {
                         <sup>ºC | <span>ºF</span></sup>
                     </div>
                     <div className="clima">
-                        <p>Chuva: 0mm</p>
+                        <p>Chuva: 0 mm</p>
                         <p>Umidade: 70%</p>
                         <p>Vento: 14 km/h</p>
                     </div>
