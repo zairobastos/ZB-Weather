@@ -2,6 +2,7 @@ import React from "react";
 import Seacher from './components/Seacher';
 import Tempo from "./components/Tempo";
 import Week from "./components/Week";
+import Chart from "./components/Chart";
 import './styles/global.scss';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <main>
       <Seacher/>
       <Tempo/>
+      <Chart/>
       <Week/>
     </main>
   );
