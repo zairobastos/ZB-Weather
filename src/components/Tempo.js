@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/tempo.scss'
 import {BsFillCloudSunFill} from 'react-icons/bs'
 

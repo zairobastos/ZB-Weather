@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/seacher.scss'
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
@@ -27,13 +26,14 @@ export default function Seacher() {
                 type="text"
                 name="seacher"
                 id="seacher"
-                className=""
+                className="seacher"
                 placeholder="Busque por uma cidade..."
                 onChange={formik.handleChange}
+                onBlur={formik.handleBlur}
                 values={formik.values.seacher}
             />
             <button type="submit">Pesquisar</button>
-            {formik.errors.seacher ? <div className="error">{formik.errors.seacher}</div>: null}
+            {formik.touched.seacher && formik.errors.seacher ? <div className="error">{formik.errors.seacher}</div>: null}
         </div>
     </form>
     );

@@ -1,4 +1,3 @@
-import React from 'react';
 import Days from './Days';
 
 import '../styles/week.scss';

@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/days.scss'
 import {BsFillCloudSunFill} from 'react-icons/bs'
 import moment from 'moment';
