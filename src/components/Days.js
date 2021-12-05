@@ -1,9 +1,7 @@
 import '../styles/days.scss';
 import {BsFillCloudSunFill} from 'react-icons/bs';
 import moment from 'moment';
-import SearcherContext from '../contexts/SeacherContext';
-import {useContext} from 'react';
-
+import { useStateValue } from '../contexts/StateContext';
 
 export default function Days(props) {
     moment.locale('pt-br');
@@ -13,7 +11,7 @@ export default function Days(props) {
         weekdaysShort : ['dom.','seg.','ter.','qua.','qui.','sex.','sáb.']
     })
 
-    const temp = useContext(SearcherContext);
+    const temp = useStateValue();
     return(
         <>
             <div className={`day ${props.class}`}>
