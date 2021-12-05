@@ -11,7 +11,7 @@ export default function Days(props) {
         weekdaysShort : ['dom.','seg.','ter.','qua.','qui.','sex.','sáb.']
     })
 
-    const temp = useStateValue();
+    const [state] = useStateValue();
     return(
         <>
             <div className={`day ${props.class}`}>
@@ -19,7 +19,7 @@ export default function Days(props) {
                 <BsFillCloudSunFill className="statusTemp"/> 
                 <div className="maxmin">
                     <p>37º</p>
-                    <p>{temp}</p>
+                    <p>{state.week.temp_min}</p>
                 </div>
             </div>
         </>
